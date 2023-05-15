@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add lib -D
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  12.22.9
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/uwaha/dev/pr-contra/package.json: Unexpected string in JSON at position 55
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "pr-contra",
+    "version": "0.1",
+    "script"" {
+      "dev": ""
+    },
+    "repository": "https://github.com/WahaWaher/pr-contra",
+    "author": "WahaWaher <wahawaher@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

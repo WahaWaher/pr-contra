@@ -1,8 +1,10 @@
 {
   "name": "pr-contra",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1",
   "repository": "https://github.com/WahaWaher/pr-contra",
   "author": "WahaWaher <wahawaher@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "lib": "^5.0.1"
+  }
 }
