@@ -1,9 +1,9 @@
 {
   "name": "pr-contra",
-  "version": "0.1",
+  "version": "0.9.0",
   "repository": "https://github.com/WahaWaher/pr-contra",
   "author": "WahaWaher <wahawaher@gmail.com>",
-  "license": "MIT",
+  "license": "HUI",
   "devDependencies": {
     "lib": "^5.0.1"
   }
